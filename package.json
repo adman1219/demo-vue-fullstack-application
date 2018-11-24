@@ -1,0 +1,21 @@
+{
+  "name": "demo-vue-express-mongo",
+  "version": "1.0.0",
+  "description": "vue and express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "adman1219 <adman1219@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
